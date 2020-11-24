@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    
+    width: 100%;
+    height: 100%;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+#last{
+    width: 110px;
+    height: 70px;
+    background-color: rgba(243, 243, 243, 0.979);
+
+}
+#last h3{
+    position: relative;
+    top: 60%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 19.5px;
+}
+#first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 70px;
+    
+   
+  
+}
+#search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 50px;
+    
+    
+    
+}
+#search i{
+    position: relative;
+    bottom: .3%;
+    left: 20%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: rgb(71, 71, 71);
+
+}
+#search h7{
+    position: relative;
+    bottom: 18%;
+    left: 20%;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(190, 190, 190);
+
+
+}
+#two i{
+    top: 50%;
+    margin: 10px;
+    padding-right:20px ;
+    font-size: 20px ;
+}
+#start{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    
+  
+}
+#side{
+    width: 25%;
+    height: 100%;
+  
+    
+    
+}
+
+#side h1{
+    position: relative;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: rgba(174, 214, 214, 0.767);
+    font-weight: 800;
+    font-size: 40px;
+}
+#side h3{
+    position: relative;
+    top: 27%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.733);
+}
+#side i{
+    position: relative;
+    top: 22.5%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.733);
+
+}
+#div{
+    position: relative;
+    top: 34%;
+    width: 100%;
+    height: 48.4%;
+    
+background-image: url(https://images.unsplash.com/photo-1554941829-fcef7b298d5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+background-size: cover;
+background-position: center;
+}
+#final{
+    position: relative;
+    top: 16.5%;
+    width: 75%;
+    height: 84%;
+    background-image: url(https://images.unsplash.com/photo-1567538096621-38d2284b23ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#side h4{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    color: rgba(174, 214, 214, 0.767);
+    font-size: 18px;
+
+}
+#side p{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    color: rgba(150, 151, 151, 0.767);
+    font-size: 15px;
+    font-weight: 600;
+
+}
+#side h5{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: rgb(36, 36, 36);
+
+}
+#side>i{
+    position: absolute;
+    top: 21.2%;
+    left: 55.4%;
+    color: rgb(49, 49, 49);
+
+}
+#div i{
+    position: relative;
+    top: 47%;
+    left: 40%;
+    transform: translate(-50%, 50%);
+    font-size: 50px;
+    color: rgb(229, 226, 226);
+}
+#div1{
+    position: relative;
+    top: 44%;
+    left: 28%;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+}
+#desk{
+    position: relative;
+    top: 16%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
